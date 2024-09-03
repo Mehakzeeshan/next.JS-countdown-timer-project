@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Countdown from "@/components/count-down";
 
 export default function Home() {
   return (
@@ -108,6 +109,9 @@ export default function Home() {
           </p>
         </a>
       </div>
+    <div>
+      <Countdown/>
+    </div>
     </main>
-  );
+   );
 }
